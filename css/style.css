@@ -3,6 +3,51 @@
     box-sizing: border-box;
 }
 
+:root{
+    --water:#64C0A9;
+    --purple:#9C72E4;
+    --green:#B0C926;
+    --pink:#D863A1;
+    --white:#FFFFFF;
+    --grey:#F6F8F9;
+    --blue:#47ADF1;
+}
+body{
+    background-color: var(--grey);
+}
 header {
     vertical-align: middle;
+    background-color: var(--white);
+}
+
+/* main */
+
+main{
+    width: 80%;
+    background-color: var(--white);
+    margin: auto;
+    margin-top: 3rem;
+}
+
+.button_section{
+    border-bottom: 2px solid var(--grey);
+    padding-left: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+#add_task{
+    background-color: var(--blue);
+    width: 7rem;
+    height: 2rem;
+    border-radius: 10px;
+    color: var(--white);
+}
+
+#add_section{
+    background-color: var(--white);
+    width: 7rem;
+    height: 2rem;
+    border-radius: 10px;
+    color: lightgrey;
 }
