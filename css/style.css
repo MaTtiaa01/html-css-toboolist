@@ -46,6 +46,7 @@ main{
     height: 2rem;
     border-radius: 10px;
     color: var(--white);
+    border: 0;
 }
 
 #add_section{
@@ -54,6 +55,7 @@ main{
     height: 2rem;
     border-radius: 10px;
     color: lightgrey;
+    border: 1px solid ;
 }
 /* main section */
 .container{
@@ -62,6 +64,7 @@ main{
 .mini_container{
     margin-top: 10px;
     margin-bottom: 10px;
+    display: block;
 }
 .check_box{
     text-align: center;
@@ -77,3 +80,11 @@ section > p{
     margin-top: 10px;
     margin-bottom: 30px;
 }
+ .edit_button{
+    border-radius: 10px;
+    width: 60px;
+    height: 20px;
+    background-color: var(--blue);
+    color: var(--white);
+    border: 0;
+ }
