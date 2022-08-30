@@ -1,6 +1,7 @@
 *{
     margin: 0;
     box-sizing: border-box;
+    padding: 0;
 }
 
 :root{
@@ -46,7 +47,7 @@ main{
 #add_task{
     background-color: var(--blue);
     width: 7rem;
-    height: 2rem;
+    padding: 15px;
     border-radius: 10px;
     color: var(--white);
     border: 0;
@@ -55,7 +56,7 @@ main{
 #add_section{
     background-color: var(--white);
     width: 7rem;
-    height: 2rem;
+    padding: 15px;
     border-radius: 10px;
     color: lightgrey;
     border: 1px solid ;
