@@ -82,9 +82,17 @@ section > p{
 }
  .edit_button{
     border-radius: 10px;
-    width: 60px;
+    width: 70px;
     height: 20px;
     background-color: var(--blue);
     color: var(--white);
     border: 0;
  }
+
+ /* utilities */
+.unavailable{
+    color: red;
+}
+#app_launch{
+    background-color: #9C72E4;
+}
