@@ -16,11 +16,14 @@ body{
     background-color: var(--grey);
 }
 header {
-    vertical-align: middle;
+    
     background-color: var(--white);
 }
 h1{
     display: inline-block;
+    vertical-align: middle;
+}
+header > img{
     vertical-align: middle;
 }
 
