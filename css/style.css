@@ -19,6 +19,10 @@ header {
     vertical-align: middle;
     background-color: var(--white);
 }
+h1{
+    display: inline-block;
+    vertical-align: middle;
+}
 
 /* main */
 
@@ -50,4 +54,26 @@ main{
     height: 2rem;
     border-radius: 10px;
     color: lightgrey;
+}
+/* main section */
+.container{
+    padding: 2rem;
+}
+.mini_container{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.check_box{
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid green;
+    color: green;
+    padding: 2px;
+    margin-right: 5px;
+}
+
+section > p{
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
