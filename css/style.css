@@ -94,5 +94,18 @@ section > p{
     color: red;
 }
 #app_launch{
-    background-color: #9C72E4;
+    background-color: var(--purple);
+}
+#recruiting{
+    background-color: var(--water);
+}
+#mobile{
+    background-color: var(--purple);
+}
+
+#web_site{
+    background-color: var(--pink);
+}
+#sales{
+    background-color: var(--water);
 }
